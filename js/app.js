@@ -358,7 +358,7 @@ GraphicsManager.prototype.updateCanvasCache = function(onLoad)
     
     for (var suit=0; suit<4; suit++)
     {
-        for (var value=0; value<11; value++)
+        for (var value=1; value<11; value++)
         {
             var img = new Image();
             
