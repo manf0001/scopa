@@ -129,7 +129,7 @@ var properties = {
         set: check_and_set_generator("show_value_on_cards", [0, 1])
     },
     speed: {
-        get: get_and_check_generator("speed", ["slow", "medium", "fast"], "medium"),
+        get: get_and_check_generator("speed", ["slow", "medium", "fast"], "fast"),
         set: check_and_set_generator("speed", ["slow", "medium", "fast"])
     },
 }
